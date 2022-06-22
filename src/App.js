@@ -7,7 +7,8 @@ class App extends Component {
     super();
 
     this.state = {
-      name: "Angelique"
+      name: "Angelique",
+      company: "ZMT"
     }
   }
 
@@ -17,9 +18,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>Hi {this.state.name}</p>
-          <button onClick={() => {
-            this.state.name = "Mary"
-            console.log(this.state.name)
+          <button 
+            onClick={() => {
+              this.setState({ name: "Mary" });
           }}>
             Change Name
           </button>
