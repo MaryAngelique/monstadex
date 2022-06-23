@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 
+import CardList from './components/cards-list/card-list.component';
+
 class App extends Component {
   constructor() {
     super();
@@ -37,6 +39,10 @@ class App extends Component {
   }
 
   render() {
+
+    const { monsters, searchField } = this.state;
+    const { onSearchChange } = this;
+
     const filteredMonsters = this.state.monsters.filter((monster) => {
       return monster.name.toLocaleLowerCase().includes(this.state.searchField);
     })
@@ -51,14 +57,15 @@ class App extends Component {
         />
         
 
-        {this.state.monsters.map((monster) => {
+        { /* {filteredMonsters.map((monster) => {
             return (
               <div key={monster.id}>
                 <h1>{monster.name}</h1>
               </div>
             );
-          })
-        }
+          })}*/}
+
+          <CardList/>
       </div>
     );
   };
