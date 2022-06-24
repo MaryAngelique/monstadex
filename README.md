@@ -23,21 +23,21 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ GitHub Solution](GitHub )
-- Live Site URL: [ Website](Deployed website)
+- Solution URL: [MonstaDex GitHub Solution](https://github.com/MaryAngelique/monstadex)
+- Live Site URL: MonstaDex Website
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- VanillaJS
-- Asynchronous JavaScript
+- React - JS library
 - API Request
 - CSS custom properties
-- CSS Flexbox properties
-- CSS Grid properties
-- Media Queries
+- CSS custom properties
+- Webpack
+- CSS Grid
+- Mobile-first workflow
+
 
 ## Author
 
