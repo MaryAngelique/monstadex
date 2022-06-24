@@ -24,8 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [MonstaDex GitHub Solution](https://github.com/MaryAngelique/monstadex)
-- Live Site URL: MonstaDex Website
-
+- Live Site URL: [MonstaDex Website](https://monstadex.vercel.app/)
 ## My process
 
 ### Built with
