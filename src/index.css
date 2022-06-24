@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to right,
+       #aa96da,
+       #ffffd2,
+       #aa96da
+  );
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-title {
+  font-family: 'Henny Penny', cursive;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 76px;
+  color: #0ccac4;
 }
