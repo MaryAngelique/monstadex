@@ -3,7 +3,7 @@ import './App.css';
 import { Component } from 'react';
 
 import CardList from './components/cards-list/card-list.component';
-import SearchBox from './components/searc-box/searc-box.component';
+import SearchBox from './components/searc-box/search-box.component';
 
 class App extends Component {
   constructor() {
