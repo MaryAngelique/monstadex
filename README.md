@@ -14,11 +14,11 @@
 
 Users should be able to:
 
-#### - 
+#### - See a list of monsters
 
-#### - 
+#### - Search through the list bby name and letters
 
-#### - 
+#### - The searched results will be based on the user's input
 
 
 ### Links
